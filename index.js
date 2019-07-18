@@ -1,5 +1,4 @@
 import { employees } from "./data";
-console.log(employees);
 
 /**
  * Codifica una función que reciba por parámetros, un arreglo de empleados,
