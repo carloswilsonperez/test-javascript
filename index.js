@@ -22,6 +22,8 @@ console.log("EJERCICIO 1");
 // NOTICE you are able to search by using any combination of attributes in the query object.
 console.log(filterEmployees(employees, { age: 29, fisrtName: "Dorothy" }));
 
+// -----------------------------------------------------------------------------------------------------
+
 /**
  * Codifica una segunda función que reciba como parametro un arreglo y retorne 
  * el promedio de edad de los empleados del departamento de 'Marketing', 
@@ -61,6 +63,8 @@ let getAverageAge = (employees, department) => {
 console.log("EJERCICIO 2");
 console.log(getAverageAge(employees, "Marketing"));
 
+// -----------------------------------------------------------------------------------------------------
+
 /**
  * Codifica una función que reciba por parámetro un arreglo de "employees" del departamento
  * de "Development" y retorne un nuevo arreglo con los "employees" con la edad aumentada a 1
@@ -85,6 +89,9 @@ let mutateEmployeesFromDepartment = (employees, department) => {
 
 console.log("EJERCICIO 3");
 console.log(mutateEmployeesFromDepartment(employees, "Development"));
+
+// -----------------------------------------------------------------------------------------------------
+
 
 /**
  * Crea una función que reciba por parametro el objeto employee y cambie el departamento a "Development"
@@ -115,6 +122,9 @@ let changeDepartment = (employees, employee) => {
 
 console.log("EJERCICIO 4");
 console.log(changeDepartment(employees, employee));
+
+// -----------------------------------------------------------------------------------------------------
+
 
 /**
  *
