@@ -20,6 +20,7 @@ let filterEmployees = (employees, criteria) => {
 };
 
 console.log("EJERCICIO 1");
+// NOTICE you are able to search by using any combination of attributes in the query object.
 console.log(filterEmployees(employees, { age: 29, fisrtName: "Dorothy" }));
 
 /**
